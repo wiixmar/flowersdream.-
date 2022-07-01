@@ -1,0 +1,124 @@
+body {
+    font-family: semi-bold-italic;
+    margin: 0px;
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+    -webkit-text-stroke: 0.05em #6494D8;
+}
+article img{
+    width: 50%;
+    height: 70%;
+}
+article p{
+    text-align: center;
+}
+article{
+  width: 40%;
+    border: 3px solid white;
+}
+
+
+
+header{
+    width: 100%;
+    display: flex;
+    background-image: linear-gradient(#A672F8,#7B8CF0,#6494D8,#7164D9);
+   padding: 2%;
+
+
+}
+header img{
+    width: 10%;
+    height: 10%;
+}
+main{
+ padding: 2%;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+    
+}
+section div{
+    transform: skewX(-25deg);
+    width: 12%;
+    border: 3px solid white;
+
+    
+}
+.flowersdream{
+    width: 70%;
+    height: 80%;
+      transform: skewX(25deg);
+       position: relative;
+       top: 12%;
+       left: 12%;
+}
+nav a{
+    justify-content: space-around;
+    position: relative;
+}
+article{
+    display: flex;
+      padding: 2%;
+      box-shadow: 10px 10px 10px 2px #7B8CF0;
+    
+}
+span{
+    font-size: 1.5em;
+    color: #A672F8;
+}
+footer{
+    width: 100%;
+    display: flex;
+    background-image: linear-gradient(#A672F8,#7B8CF0,#6494D8,#7164D9);
+   padding: 2%;
+   justify-content: space-around;
+}
+footer img{
+    width: 20%;
+    height: 45%;
+}
+.ins{
+ width: 10%;
+ height: 60%;
+}
+main h2{
+    text-align: center;
+    color: #A672F8;
+    position: relative;
+}
+main h2::after{
+    content:"";
+    background-image: url("https://png.pngtree.com/png-vector/20190810/ourlarge/pngtree-dollar-money-bag-blue-dotted-line-line-icon-png-image_1654548.jpg");
+    position: absolute;
+    background-size: 30px 30px;
+    width: 30px;
+    height: 30px;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+   nav a{
+       text-decoration: none;
+       font-size: 2em;
+       color: white;
+    
+    -webkit-text-stroke: 0.05em #6494D8;
+    border: 5px dotted white;
+    padding: 2%;
+
+}
+ nav a:hover{
+     border:dotted 5px #6c5ed8;
+     transform: scale(1.5);
+     box-shadow: 5px 5px 5px 2px 6494D8;
+     transition: 2s linear;
+     margin: 3%;
+     z-index: 99999999;
+     background-color: black;
+ }  

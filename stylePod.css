@@ -1,0 +1,132 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif sans-serif;
+    margin: 0;
+}
+main{
+    width:60%;
+    margin-left: 20%;
+}
+header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    background-color: blueviolet
+}
+
+footer{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    background-color: blueviolet;
+}
+footer div{
+    display: flex;
+}
+footer img{
+    width: 30%;
+    height: 50%;
+    mix-blend-mode: multiply;
+    margin-top: 10%
+}
+footer p{
+    color: rgb(0, 0, 0);
+    margin-top: 20%;
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+}
+header img{
+    width: 15%;
+
+
+}
+header h1{
+    color:whitesmoke;
+    -webkit-text-stroke: 2px violet; 
+    font-style: italic;
+}
+header h2{
+    color:white;
+    margin-top: 2%;
+}
+nav{
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(54, 7, 54);
+    box-shadow: 10px 10px 10px 1px blueviolet;
+    border: 5px double blueviolet;
+    border-radius: 50%;
+    padding: 15%;
+    width: 100%;
+
+}
+.hide_menu{
+   position: fixed; 
+   left: 3%;
+   top: 50%;
+  display: inline-block; 
+}
+.menu{
+   color: rgb(0, 0, 0); 
+   font-size: 2em;
+   border: 5px double ghostwhite;
+   padding: 15%;
+   width: 100%;
+   text-align: center;
+   border-radius: 50%;
+   background-color: rgb(164, 84, 201);
+   box-shadow: 10px 10px 10px 1px ;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+.hide_menu:hover nav{
+display: flex;
+}
+.hide_menu nav a:hover{
+color: blueviolet;
+font-style: italic;
+padding: 2%;    
+margin: 2%;
+border-radius: 50%;
+border: 5px double blueviolet;
+box-shadow: 10px 10px 10px 1px blueviolet;
+transform: 1s linear;
+}
+section{
+    display: block;
+}
+section div{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3%;
+}
+div p{
+    color: blueviolet;
+    text-align: center;
+    font-weight: bold;
+}
+.prise{
+    margin-top: 2%;
+    font-weight: bold;
+    font-size: 2em;
+    text-shadow: 5px 5px 5px violet;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

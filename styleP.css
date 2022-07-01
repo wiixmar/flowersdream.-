@@ -1,0 +1,204 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    display: flexbox;
+}    
+
+header {
+    display: flexbox;
+    font-family: semi-bold-italic;
+    background-color: #7B8CF0;
+}
+
+header img {
+    width: 12%;
+    height: 12%;
+    padding-left: 5%;
+}
+
+header h1 {
+    color: white;
+    padding-right: 3%;
+    float: right;
+}
+
+main {
+    margin-top: 5%;
+}
+
+nav {
+    justify-content: space-around;
+    text-align: center;
+}
+
+nav a {
+    border: solid 1px #6494D9;
+    background-color: #6494D9;
+    border-radius: 50%;
+    margin: 5%;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-size: 110%;
+}
+
+.main {
+    margin: 15%;
+    position: relative;
+    left: 20px;
+}
+
+h1 {
+   text-align: center; 
+   margin-top: 3%;
+   margin-bottom: 40px;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    border-bottom: black 2px solid;
+}
+
+.flower {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.flower h5 {
+    text-align: center;
+    background-color: #D099F0;
+    width: 50%;
+    margin: 0;
+    padding: 1%;
+    border: solid 2px black;
+}
+
+.flower div {
+    display: flex;
+    width: 100%;
+    background-color: #D099F0;
+    border: solid 2px black;
+    padding: 2% 0% 2% 4%;
+}
+
+.flower img {
+    width: 50%;
+    height: 100%;
+}
+
+.flower div p {
+    margin-left: 5%;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    height: 30%;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+.row div {
+    height: 80%;
+}
+
+.write p {
+   background-color: #F6F6F6;
+   border: solid 1px black; 
+   padding: 1%;
+   width: 20%;
+   height: 2%;
+   font-family: extra-light-italic;
+}
+
+.write img {
+    position: relative;
+    top: 5px;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews article {
+    display: flex;
+    margin-bottom: 6%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.reviews article img {
+    width: 10%;
+    height: 10%;
+}
+
+.reviews h2 {
+    margin-left: 5%;
+}
+
+.people {
+    background-color: #F6F6F6;
+    padding: 1%;
+}
+
+.people p {
+    margin-left: 5%;
+}
+
+.star {
+    position: relative;
+    top: 75px;
+}
+
+.star1 {
+    position: relative;
+    top: 75px;
+    left: 25%;
+}
+
+footer {
+    background-color: #A672F8;
+    height: 10%;
+}
+
+footer p {
+    color: white;
+}
+
+footer img {
+    width: 20%;
+    height: 50%;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.social article {
+    width: 30%;
+    display: flex;
+}
+    
+.instagram {
+    width: 70px;
+    height: 70px; 
+    position: relative;
+    bottom: 25px;
+}
+
+.insta {
+    text-align: center;
+}
+
+.sc {
+       width: 40px;
+       height: 80px;
+}
